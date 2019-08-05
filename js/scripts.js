@@ -51,3 +51,13 @@ function myFunction() {
                                   '</div>' + 
                                   '</div>)');
     });
+    $(".new©-order").each(function() {
+        event.preventDefault();
+          var selectedSize = $(this).find("s              </div>elect.new-size").val();
+          var selectedCrusts = $(this).find("select.new-crusts").val();
+          var selectedToppings = $(this).find("select.new-toppings").val();
+          var newOrder = new Order( selectedSize, selectedCrusts, selectedToppings);
+        });
+        newOrder.forEach(function() {
+          $("#add-adress").append("<li>" + order.size + ", " + order.crusts + " " + order.toppings + "</li>");
+        });
