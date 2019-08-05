@@ -33,3 +33,19 @@
     #iki{
     float: left;
     }
+    @media screen and (max-width: 500px) {
+        .header a {
+        float: none;
+        display: block;
+        text-align: left;
+        }
+        .header-right {
+        float: none;
+        }
+        }
+        .well{
+            border-style: ridge;
+            text-align: center;
+            font-size: 18px;
+            padding: 50px 100px 50px 100px;
+        }
