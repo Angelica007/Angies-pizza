@@ -1,0 +1,18 @@
+.header {
+    overflow: hidden;
+    padding: 2px 1px;
+    }
+    .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px; 
+    
+    }
+    
+    .header a.logo {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    }
