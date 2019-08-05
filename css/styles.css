@@ -2,7 +2,7 @@
     overflow: hidden;
     padding: 2px 1px;
     }
-    .header a {
+.header a {
     float: left;
     color: black;
     text-align: center;
@@ -11,41 +11,86 @@
     
     }
     
-    .header a.logo {
+.header a.logo {
     float: left;
     font-size: 25px;
     font-weight: bold;
     }
-    .header a:hover {
+.header a:hover {
         background-color: #ddd;
         text-decoration: none;
         color: black;
     }
     
-    .header a.active {
+.header a.active {
     background-color: maroon;
     color: white;
     }
     
-    .header-right {
+.header-right {
     float: right;
     }
     #iki{
     float: left;
     }
-    @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
         .header a {
         float: none;
         display: block;
         text-align: left;
         }
-        .header-right {
+.header-right {
         float: none;
         }
         }
-        .well{
-            border-style: ridge;
+.well{
+    border-style: ridge;
             text-align: center;
             font-size: 18px;
-            padding: 50px 100px 50px 100px;
+            padding: 50px 100px 50px 100px;        
         }
+ #lin1{
+        background-image: url("https://images.pexels.com/photos/1552635/pexels-photo-1552635.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;    
+        }    
+img{
+    float: right;
+    }     
+label{
+    padding: 20px 20px 20px 20px;
+    }
+.col-md-4{
+    justify-content: center;
+    }
+h6{
+    text-align: center;
+    }
+#gif{
+    padding: 20px 20px 20px 20px;
+    }
+#nin1{
+    color: white;
+    background-color: rgb(17, 16, 16);
+    height: 300px;
+    width: 100%;    
+    }
+.pagebutton {
+        margin: 10px;
+        padding: 10px 20px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: inline-block;
+        font-size: 22px;
+        Text-align: center;
+        transition: .3s;
+        border: 3px solid #fbda81;
+        }   
+.pagebutton:hover {
+        background-color: #fbda81;
+        border: 3px solid #fbda81;
+        color: #fff;
+        }        
