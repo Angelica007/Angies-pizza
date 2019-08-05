@@ -61,3 +61,18 @@ function myFunction() {
         newOrder.forEach(function() {
           $("#add-adress").append("<li>" + order.size + ", " + order.crusts + " " + order.toppings + "</li>");
         });
+        $("select.new-size").val("");
+      $("select.new-crusts").val("");
+      $("select.new-toppings").val("");
+  
+})
+$(document).ready(function(){
+  $("").click(function(event){
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var message =$("#comment").val();
+  if((name != "") || (email != "") || (message != "")) {
+      alert(name + " " + "Thanks for your comment! It has been received.")
+  }
+});
+})
