@@ -16,3 +16,20 @@
     font-size: 25px;
     font-weight: bold;
     }
+    .header a:hover {
+        background-color: #ddd;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .header a.active {
+    background-color: maroon;
+    color: white;
+    }
+    
+    .header-right {
+    float: right;
+    }
+    #iki{
+    float: left;
+    }
